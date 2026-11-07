@@ -1,0 +1,39 @@
+/* Dark theme (default) */
+:root {
+    /* Colors */
+    --background: #0A0F0E;
+    --primary-text: #F2F5EA;
+    --muted-text: #7F9A8C;
+    --body-text: #B5BFB8;
+    --accent: #C6F36B;
+    --accent-text: #0A0F0E;
+    --panel: #1F4D3A;
+    --border: #2E5A47;
+
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Spacing */
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+    --space-5: 4rem;
+
+    /* Misc */
+    --radius: 4px;
+    --transition: 0.3s ease;
+}
+
+/* Light theme: applied when <html data-theme="light"> */
+[data-theme="light"] {
+    --background: #F6F8F2;
+    --primary-text: #0A0F0E;
+    --muted-text: #5E7A6B;
+    --body-text: #3D4A43;
+    --accent: #5A8A00;
+    --accent-text: #FFFFFF;
+    --panel: #DCE9D5;
+    --border: #B7CBB0;
+}
