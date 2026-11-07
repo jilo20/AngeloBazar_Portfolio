@@ -1,0 +1,228 @@
+[
+{
+  "model": "mydata.profile",
+  "pk": 1,
+  "fields": {
+    "name": "Angelo Bazar",
+    "description": "I'm a fourth-year computer science student at the University of San Jose-Recoletos. I enjoy understanding how things work and building useful software to solve real problems. My main focus is web development, with hands-on work in backend systems, databases, AI, and computer vision. I'm particularly interested in cybersecurity and am studying it alongside C# backend development.",
+    "contact_num": "09921558194",
+    "skills": "Python, JavaScript, React, Django, Laravel, DjangoRF, C, C#, Artificial Intelligence"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 1,
+  "fields": {
+    "title": "TIMBLE",
+    "description": "A timetable planning workspace for subject offerings, open sections, and class schedules. It uses historical enrollment and curriculum data to suggest suitable section numbers. The idea: make academic planning easier to see, adjust, and act on.",
+    "atype": "PROJECT"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 2,
+  "fields": {
+    "title": "Garbage Intensification",
+    "description": "Analyzes hourly snapshots from community CCTV cameras to estimate garbage buildup by area and help local governments manage waste. I worked on the backend and model training.",
+    "atype": "PROJECT"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 3,
+  "fields": {
+    "title": "EduTrack",
+    "description": "A university student performance tracking system designed to make academic progress easier to monitor. A clearer view of how students are doing.",
+    "atype": "PROJECT"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 4,
+  "fields": {
+    "title": "Printing Section System",
+    "description": "Helped digitize print requests, cost computation, and transaction logging for the university printing section. A smoother path from request to record.",
+    "atype": "PROJECT"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 5,
+  "fields": {
+    "title": "Face Recognition Attendance",
+    "description": "An attendance system that identifies students by face and records attendance automatically.",
+    "atype": "PROJECT"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 6,
+  "fields": {
+    "title": "Top 25 Qualifier, Philippine Startup Challenge XI",
+    "description": "Our TIMBLE team qualified for the Central Visayas Top 25 of the Philippine Startup Challenge XI and participated in the Regional Pitching Competition on October 24, 2026. TIMBLE x University of San Jose-Recoletos.",
+    "atype": "AWARD"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 7,
+  "fields": {
+    "title": "2nd Runner-Up, SCS Days Computer Quiz Bowl",
+    "description": "2nd Runner-Up in the Computer Quiz Bowl at SCS Days 2024.",
+    "atype": "AWARD"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 8,
+  "fields": {
+    "title": "Top 10 Team, SCS Hackathon",
+    "description": "SCS Hackathon team placement, 2026.",
+    "atype": "AWARD"
+  }
+},
+{
+  "model": "mydata.achievement",
+  "pk": 9,
+  "fields": {
+    "title": "JLPT N5 Passed",
+    "description": "Passed the Japanese-Language Proficiency Test N5 (2026).",
+    "atype": "AWARD"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 1,
+  "fields": {
+    "name": "TIMBLE forecast generation",
+    "achievement": 1,
+    "img": "images/timble-forecast.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 2,
+  "fields": {
+    "name": "TIMBLE room loading",
+    "achievement": 1,
+    "img": "images/timble-roomloading.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 3,
+  "fields": {
+    "name": "TIMBLE subject offerings",
+    "achievement": 1,
+    "img": "images/timble-subjects.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 4,
+  "fields": {
+    "name": "TIMBLE bulk import",
+    "achievement": 1,
+    "img": "images/timble-import.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 5,
+  "fields": {
+    "name": "Garbage detection prototype",
+    "achievement": 2,
+    "img": "images/garbage-prototype.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 6,
+  "fields": {
+    "name": "Object detection model",
+    "achievement": 2,
+    "img": "images/garbage-model.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 7,
+  "fields": {
+    "name": "System flow diagram",
+    "achievement": 2,
+    "img": "images/garbage-flow.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 8,
+  "fields": {
+    "name": "EduTrack dashboard",
+    "achievement": 3,
+    "img": "images/edutrack.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 9,
+  "fields": {
+    "name": "Printing section system dashboard",
+    "achievement": 4,
+    "img": "images/printing.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 10,
+  "fields": {
+    "name": "Face attendance demo poster",
+    "achievement": 5,
+    "img": "images/face-poster.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 11,
+  "fields": {
+    "name": "PSC XI Top 25 announcement",
+    "achievement": 6,
+    "img": "images/timble-award.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 12,
+  "fields": {
+    "name": "PSC XI team photo",
+    "achievement": 6,
+    "img": "images/psc-team.jpg"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 13,
+  "fields": {
+    "name": "PSC XI certificate of participation",
+    "achievement": 6,
+    "img": "images/psc-certificate.jpg"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 14,
+  "fields": {
+    "name": "SCS Days Quiz Bowl certificate",
+    "achievement": 7,
+    "img": "images/certificate-quizbowl.webp"
+  }
+},
+{
+  "model": "mydata.image",
+  "pk": 15,
+  "fields": {
+    "name": "JLPT N5 certificate",
+    "achievement": 9,
+    "img": "images/certificate-jlpt.webp"
+  }
+}
+]

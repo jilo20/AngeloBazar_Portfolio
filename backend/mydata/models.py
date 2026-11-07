@@ -2,14 +2,14 @@ from django.db import models
 
 class Profile(models.Model):
     name = models.CharField(max_length=100)
-    description = models.CharField(max_length=200)
+    description = models.TextField()
     contact_num = models.CharField(max_length=15)
-    skills = models.TextField(max_length=100)
+    skills = models.TextField()
     
 class Achievement(models.Model):
     type_choices = [('AWARD','Award'), ('PROJECT','Project')]
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=200)
+    description = models.TextField()
     atype = models.CharField(max_length=10,choices=type_choices)
     
 class Image(models.Model):
