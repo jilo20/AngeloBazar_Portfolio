@@ -5,7 +5,7 @@ My personal portfolio website. It shows who I am, the projects I've built, and t
 The content is not hard-coded. It is stored in a Django database and served by my own API. The React site reads from that API.
 
 **Live site:** https://angelo-bazar-portfolio.vercel.app
-**API:** https://jilodata.onrender.com/mydata/achievements/
+
 
 > The backend runs on a free plan, so the first load can take up to a minute while it wakes up.
 
