@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 
-// Gets data from the Django API.
-// Usage: const { data, loading, error } = useFetch('/profile/')
 export default function useFetch(path) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)

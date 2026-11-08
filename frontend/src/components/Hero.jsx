@@ -2,7 +2,6 @@ import avatar from '../assets/2x2.jpg'
 import useFetch from '../hooks/useFetch'
 
 export default function Hero() {
-  // name + bio come from the Django profile endpoint (it returns a list)
   const { data } = useFetch('/profile/')
   const profile = data?.[0]
 

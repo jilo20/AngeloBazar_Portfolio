@@ -1,12 +1,6 @@
 @import "tailwindcss";
 
-/*
-  Map Tailwind tokens to the CSS variables in variables.css.
-  `inline` makes utilities use var(--...) directly, so changing
-  <html data-theme="light"> re-themes everything without dark: classes.
-*/
 @theme inline {
-  /* Colors -> bg-background, text-accent, border-border, ... */
   --color-background: var(--background);
   --color-primary-text: var(--primary-text);
   --color-muted-text: var(--muted-text);
@@ -16,9 +10,6 @@
   --color-panel: var(--panel);
   --color-border: var(--border);
 
-  /* Fonts -> font-heading, font-sans, font-code
-     (token names differ from the variable names on purpose,
-     otherwise a variable would reference itself) */
   --font-heading: var(--font-display);
   --font-sans: var(--font-body);
   --font-code: var(--font-mono);

@@ -4,11 +4,9 @@ const LINKEDIN = 'https://www.linkedin.com/in/angelo-bazar-0a6748432'
 const YEAR = new Date().getFullYear()
 
 export default function Footer() {
-  // name + phone come from the Django profile endpoint
   const { data } = useFetch('/profile/')
   const profile = data?.[0]
 
-  // 09921558194 -> +639921558194 (for the tel: link)
   const phone = profile?.contact_num
   const phoneHref = phone ? `tel:${phone.replace(/^0/, '+63')}` : null
 

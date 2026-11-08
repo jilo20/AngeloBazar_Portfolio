@@ -1,4 +1,3 @@
-// One collapsible item: title (always visible) + description, images, certificates (when open)
 export default function Dropdown({ title, description, images = [] }) {
   const isCertificate = (img) => img.name.toLowerCase().includes('certificate')
   const photos = images.filter((img) => !isCertificate(img))

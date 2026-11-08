@@ -1,7 +1,6 @@
 import useFetch from '../hooks/useFetch'
 import Dropdown from './Dropdown'
 
-// atype is 'PROJECT' or 'AWARD' (matches the Django Achievement.atype filter)
 export default function AchievementSection({ id, label, heading, atype }) {
   const { data, loading, error } = useFetch(`/achievements/?atype=${atype}`)
 
